@@ -14,9 +14,9 @@ a {
 }
 
 .container {
-  width: 1320px;
+  max-width: 1320px;
   margin: 0 auto;
-  padding: 0 12px;
+  padding: 80px 12px;
 }
 
 .col-12 {
@@ -43,6 +43,10 @@ a {
   background-color: #aa0601;
 }
 
+.bg-light {
+  background-color: #FBF2F2;
+}
+
 .primary-text {
   color: #aa0601;
 }
@@ -53,14 +57,19 @@ a {
 
 .row  {
   display: flex;
-  flex-wrap: wrap;
-  margin-left: -12px;
-  margin-right: -12px;
 }
 
 .px-3 {
   padding-left: 12px;
   padding-right: 12px;
+}
+
+.mt-80 {
+  margin-top: 80px;
+}
+
+.mb-80 {
+  margin-bottom: 80px;
 }
 
 
@@ -83,12 +92,16 @@ h3 {
 
 h4 {
   font-size: 24px;
+  color: #650300;
 }
 
 /* nav */
-.nav-wrap {
+.nav-container {
   display: flex;
   justify-content: space-between;
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 12px;
 }
 
 .nav-logo {
@@ -130,7 +143,106 @@ h4 {
   padding: 6px 12px;
 }
 
+/* service */
+.service {
+  text-align: center;
+}
 
+.service-list {
+  margin-top: 32px;
+  gap: 24px;
+}
+
+.service-option {
+  max-width: 306px;
+}
+
+.service-list img {
+  width: 100px;
+  margin-bottom: 16px;
+}
+
+.service-list p {
+  text-align-last: left;
+  margin-bottom: 8px;
+}
+
+/* classic */
+.classic {
+  text-align: center;
+}
+
+.classic-list {
+  margin-top: 48px;
+  display: flex;
+  gap: 24px;
+}
+
+.classic-type {
+  max-width: 416px;
+}
+
+.classic-type h2 {
+  color: #aa0601;
+  font-style: italic;
+  margin-top: 8px;
+}
+
+/* co-branding */
+.co-branding {
+  background: url("../public/index-bg.png") center center/cover no-repeat;
+  text-align: center;
+}
+
+.co-branding h2 {
+  color: #fff;
+}
+
+.co-branding-list {
+  margin-top: 48px;
+}
+
+.co-branding-item {
+  background-color: #fff;
+  max-width: 648px;
+}
+
+.co-branding-item h2 {
+  color: #aa0601;
+  font-style: italic;
+  margin: 8px 0;
+}
+
+/* feedback */
+.feedback h2 {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.feedback-list {
+  gap: 24px;
+}
+
+.feedback-item {
+  max-width: 306px;
+  box-shadow: 0px 2px 6px #00000029;
+  border: 1px solid #DEE2E6;
+}
+
+.feedback-content {
+  padding: 16px;
+}
+
+.feedback-content .name {
+  font-size: medium;
+  margin-bottom: 8px;
+}
+
+.feedback-content .date {
+  margin-top: 72px;
+  font-size: 14px;
+  color: #707070;
+}
 
 /* footer */
 .footer-links {
@@ -163,8 +275,10 @@ h4 {
   width: 48px;
 }
 
-footer .container {
-  padding-top: 48px;
+.footer-container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 48px 12px 0 12px;
 }
 
 .contact {
