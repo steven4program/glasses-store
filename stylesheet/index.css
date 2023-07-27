@@ -1,0 +1,214 @@
+body {
+  line-height: 1.5;
+  font-family:  'Roboto', 'Noto Sans TC', sans-serif;
+}
+
+img {
+  vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1320px;
+  margin: 0 auto;
+  padding: 0 12px;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-4 {
+  width: 33.333333333333336%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-2 {
+  width: 16.666666666666668%;
+}
+
+.bg-primary {
+  background-color: #aa0601;
+}
+
+.primary-text {
+  color: #aa0601;
+}
+
+.secondary-text {
+  color: #650300;
+}
+
+.row  {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -12px;
+  margin-right: -12px;
+}
+
+.px-3 {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+
+h1 {
+  font-size: 64px;
+  color: #650300;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 48px;
+  color: #650300;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 36px;
+  color: #650300;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+/* nav */
+.nav-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-logo {
+  width: 80px;
+  margin: 16px 0;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item a {
+  font-size: 20px;
+  color: #fff;
+  margin-left: 64px;
+}
+
+.nav-item:last-child {
+  margin-left: 0;
+}
+
+/* banner */
+.banner {
+  background: url("../public/home-header.png") center center/cover no-repeat;
+  text-align: right;
+}
+
+.banner {
+  padding-top: 296px;
+  padding-bottom: 302px;
+}
+
+.banner a {
+  color: #fff;
+  width: 104px;
+  font-size: 20px;
+  padding: 6px 12px;
+}
+
+
+
+/* footer */
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.footer-links-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 48px;
+}
+
+.footer-links-item {
+  font-size: 16px;
+  color: #fff;
+}
+
+.footer-links-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+}
+
+.footer-links-icon img {
+  width: 48px;
+}
+
+footer .container {
+  padding-top: 48px;
+}
+
+.contact {
+  margin-bottom: 32px;
+  font-size: 36px;
+}
+
+.tel {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  gap: 22px;
+}
+
+.email {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.tel p, .tel span, .email p, .email span {
+  font-size: 36px;
+  color: #fff;
+}
+
+.copyright {
+  border-top: 1px solid #fff;
+}
+
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.copyright p {
+  font-size: 14px;
+  color: #fff;
+}
+
+.copyright-right {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
